@@ -44,38 +44,40 @@ body {
     color: #434455;
     text-decoration: none;
 }
+
 .hero {
     background-color: #2e2f42;
-    padding: 188px 0;
     text-align: center;
 }
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
-    outline: none; }
 
-        .hero-title {
-            font-size: 56px;
-            line-height: 1.07;
-            text-align: center;
-            letter-spacing: 0.02em;
-            color: #ffffff;
-            margin: 0;
-            /* Додатково для відсутності зайвих відступів */
-        }
-    
-        .hero-button {
-            background-color: #4D5AE5;
-            font-family: "Roboto", sans-serif;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #ffffff;
-            border: none;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin: 0;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+    outline: none;
+}
+        
     
         
                 .feature-title {
@@ -143,7 +145,7 @@ body {
                           .footer {
                               background-color: #2e2f42;
                               /* фон футера */
-                              padding: 40px 20px;
+                              
                             
                               text-align: center;
                               /
