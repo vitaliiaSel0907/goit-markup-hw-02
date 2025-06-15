@@ -27,7 +27,10 @@ body {
     text-decoration: none;
 }
 
-.nav-link:hover,
+.nav-link:hover{
+    color: #404bbf;
+    outline: none;
+}
 .nav-link:focus {
     color: #404bbf;
     outline: none;
@@ -72,7 +75,9 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.hero-button:hover,
+.hero-button:hover{
+    background-color: #404BBF;
+}
 .hero-button:focus {
     background-color: #404BBF;
     color: #ffffff;
