@@ -47,7 +47,12 @@ body {
     color: #434455;
     text-decoration: none;
 }
-
+.contact-link:hover{
+    color: #404bbf;
+}
+.contact-link:focus {
+    color: #404bbf;
+}
 .hero {
     background-color: #2e2f42;
     text-align: center;
@@ -77,6 +82,7 @@ body {
 
 .hero-button:hover{
     background-color: #404BBF;
+    color: #ffffff;
 }
 .hero-button:focus {
     background-color: #404BBF;
